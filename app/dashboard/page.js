@@ -62,3 +62,17 @@ function Section({ title, data }) {
     </div>
   );
 }
+
+import ChatBox from '@/components/ChatBox';
+
+export default function Dashboard() {
+  return (
+    <div className="p-6 space-y-6">
+      {/* Your trackers and plan display */}
+      {/* ... */}
+
+      <ChatBox />
+    </div>
+  );
+}
+
